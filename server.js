@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://cr31293:Columbia1808@cluster0.ftj0e.mongodb.net/workouts?retryWrites=true&w=majority"
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://cr31293:Coltsfan1808@cluster0.ftj0e.mongodb.net/workouts?retryWrites=true&w=majority"
 , {useNewUrlParser: true});
 
 app.use(require("./routes/api.js"));
